@@ -24,4 +24,3 @@ def similarity(a,b):
     distance = dis_len + distance
     similarity = (lentotal - distance)/lentotal*100
     return distance,similarity
-similarity("apple","lepple")
